@@ -1,0 +1,424 @@
+a{
+	font-size: 0.14rem;
+	color: #000;
+	text-decoration: none;
+}
+.Bg{
+	background: #f3f3f3;
+}
+
+.main-header{
+	height: 0.44rem;
+}
+.tabs-top>.tabs, .tabs.tabs-top{
+	top:0.44rem;
+	height: 0.49rem;
+	line-height: 0.49rem;
+	font-size: 0.1rem;
+}
+.scroll-content{
+	top:0.89rem;
+}
+.tabs-top.tabs-striped .tab-item.activated, .tabs-top.tabs-striped .tab-item.active, .tabs-top.tabs-striped .tab-item.tab-item-active{
+	border-color: #31c27c;
+	color: #31c27c;
+}
+.logo{
+	background: url(../img/logo.png) no-repeat;
+	display: block;
+    width: 0.9rem;
+    height: 0.25rem;
+    margin: 0.04rem 0 0 0.1rem; 
+    background-size: cover;
+}
+.download{
+	position: absolute;
+	text-decoration: none;
+    display: inline-block;
+    right: 0.1rem;
+    top: 0.08rem;
+    height: 0.28rem;
+    padding: 0 0.12rem;
+    line-height: 0.28rem;
+    border-radius: 0.99rem;
+    font-size: 0.14rem;
+    background: #149c5a;
+    color: #fff;
+}
+.lunbo{
+	width: 100%;
+	height: 1.28rem;
+	overflow: hidden;
+}
+.lunbo img{
+	width: 100%;
+}
+.content{
+	margin-top: 0.1rem;
+	overflow: hidden;
+}
+.content div{
+	float: left;
+	width: 1.46rem;
+	margin: 0 0.05rem 0.1rem 0.05rem;
+	background: #fff;
+	position: relative;
+}
+.content div span{
+	display: block;
+	position: absolute;
+	bottom: 0.58rem;
+    right: 0.05rem;
+	height: 0.24rem;
+    width: 0.24rem;
+    background: url(../img/list_sprite.png) no-repeat;
+    background-position: 0 0 ;
+    background-size: 0.24rem 0.6rem
+}
+.content div img{
+	width: 1.46rem;
+	height: 1.46rem;
+}
+.content div p {
+	font-size: 0.12rem;
+	line-height: 0.14rem;
+	height: 0.38rem;
+	padding-left: 0.1rem;
+}
+.footer {
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+.footer a {
+	line-height: 0.3rem;
+}
+.footer i{
+	background: url(../img/logo_footer.png) no-repeat;
+	display: block;
+    width: 0.9rem;
+    height: 0.25rem;
+    background-size: cover;
+    margin-bottom: 0.1rem;
+}
+.footer p {
+	font-size: 0.1rem;
+}
+.box {
+	margin:0.1rem 0.1rem 0.05rem 0.1rem;
+	overflow: hidden;
+	background: #fff;
+	position: relative;
+}
+.box img {
+	width: 1rem;
+	height: 1rem;
+	float: left;
+}
+.box  div {
+	width: 1.7rem;
+	height: 1rem;
+	float: left;
+	margin-left: 0.1rem;
+}
+.box div h2 {
+	color: #000;
+	font-size: 0.20rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.box div p {
+	line-height: 0.14rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.box:after{
+	content: '';
+	position: absolute;
+    right: 0.2rem;
+    top: 50%;
+    margin-top: -0.04rem;
+    width: 0.06rem;
+    height: 0.06rem;
+    border-right: 0.01rem solid #b2b2b2;
+    border-bottom: 0.01rem solid #b2b2b2;
+    -webkit-transform: rotate(-45deg);
+}
+.box div .icon_listen{
+	position: absolute;
+	left: 0.1rem;
+	bottom: 0.1rem;
+	display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+   	background: url(../img/list_sprite.png) no-repeat;
+   	background-position: 0 -0.5rem;
+    background-size: 0.24rem 0.60rem;
+}
+.box div span{
+	color: #fff;
+	display: block;
+	width: 0.7rem;
+	height: 0.1rem;
+	line-height: 0.1rem;
+	font-size: 0.1rem;
+	position: absolute;
+	left: 0.25rem;
+	bottom: 0.1rem;
+}
+.state-bg .search{
+	padding:0.08rem;
+	height: 0.53rem;
+	background: #f3f3f3;
+	overflow: hidden;
+	position: relative;
+}
+.state-bg .search i {
+	position: absolute;
+	left: 0.15rem;
+	top:0.18rem;
+	width: 0.18rem;
+	height: 0.18rem;
+	display: block;
+	background: url(../img/search.png) 0 0  no-repeat;
+	background-size: 0.18rem 0.18rem; 
+}
+.state-bg .search input{
+	height: 0.37rem;
+	width: 3rem;
+	text-indent: 0.3rem;
+}
+.state-bg .search button{
+	position: absolute;
+	right: 0.11rem;
+	top: 0.08rem;
+	height: 0.4rem;
+	border: none;
+	background: #f3f3f3;
+	display: none;
+}
+.song{
+	top: 0;
+}
+.song .songTitle{
+	width: 100%;
+	position: absolute;
+	left: 0.1rem;
+	top: 2.5rem;
+}
+.song .songImg{
+	width: 3.2rem;
+	height: 3.2rem;
+	display: block;
+}
+.player{
+	color: #ccc;
+	position: absolute;
+	right: 0.24rem;
+	top:0;
+    display: block;
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-left: 0.1rem;
+    border: solid 0.03rem;
+    border-radius: 50%;
+}
+.player:before{
+	content: "";
+    position: absolute;
+    top: 0.09rem;
+    left: 0.11rem;
+    height: 0;
+    width: 0;
+    line-height: 999em;
+    overflow: hidden;
+    border-color: transparent transparent transparent currentColor;
+    border-width: 0.09rem 0.15rem;
+    border-style: solid;
+}
+.itemlist{
+	display: flex;	
+}
+.leftnum{
+	width: 0.2rem;
+	display: block;
+}
+
+.songlist{
+	margin-left: 0.2rem;
+	width: 3rem;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.song-info{
+	width: 100%;
+	height: 0.9rem;
+	display: flex;
+	padding:0.1rem;
+	background: rgba(0,0,0,0.1);
+}
+.song-info img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.song-info .msg{
+	width: 1.6rem;
+	overflow: hidden;
+}
+.song-info h2{
+	width: 1.6rem;
+	font-size: 0.18rem;
+	margin-left: 0.1rem;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.song-info p{
+	margin-left: 0.1rem;
+}
+.song-info .player{
+	top: 0.2rem;
+}
+.geci{
+	margin:0.3rem 0;
+	height: 2.7rem;
+	overflow: hidden;
+	color: #fff;
+}
+.geci .scroll{
+	height: 2.7rem;
+}
+.songPlayer{
+	color: #fff;
+	position: absolute;
+	right: 0.24rem;
+	top:0.2rem;
+    display: block;
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-left: 0.1rem;
+    border: solid 0.03rem;
+    border-radius: 50%;
+}
+.songPlayer i{
+	display: block;
+	width: 0.24rem;
+    height: 0.22rem; 
+    margin: 0.09rem 0 0 0.14rem; 	
+    background-image: url('../img/sprite_play.png');
+    background-repeat: no-repeat;
+    background-size: 0.4rem 3.5rem;
+}
+.bofang{
+	  background-position: 0 -1.78rem;
+}
+.zanting{
+	  background-position: 0 -1.5rem;
+}
+#cont{
+	margin-top: 0.2rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 0.4rem;
+	color: #000;
+}
+#cont #gundongtiao{
+	width: 2.2rem;
+	height: 0.02rem;
+	background: #ccc;
+}
+#now{
+	height: 0.02rem;
+	background:#656588;
+}
+.music{
+	overflow: hidden;
+}
+.slist{
+	float: left;
+	width: 0.2rem;
+	height: 0.2rem;
+	display: block;
+	background: url('../img/sprite_play.png')  0 -2.4rem no-repeat;
+    background-size: 0.4rem 3.5rem;
+    margin-left: 0.3rem;
+}
+.love{
+	float: left;
+	width: 0.25rem;
+    height: 0.21rem;
+	display: block;
+	background:url(../img/sprite_play.png) no-repeat;
+	background-size: 0.4rem 3.5rem;
+	margin-left: 2rem;
+
+}
+.downLoad{
+	width: 2.2rem;
+	margin-left:0.5rem;
+	height: 0.45rem;
+	border-radius:0.2rem;
+	background:#31c27c;
+	color: #fff;
+	line-height: 0.45rem;
+	font-size: 0.2rem;
+	position: relative;
+}
+.downLoad span{
+	margin-left: 0.7rem;
+}
+.downLoad i{
+	display: block;
+	position: absolute;
+    top: 0.06rem;
+    left: 0.1rem;
+    width: 0.33rem;
+    height: 0.33rem;
+    background: url('../img/sprite_play.png') 0 -3rem no-repeat;
+    background-size: 0.4rem 3.5rem;
+}
+.show{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+	width: 100%;
+	height: 3.5rem;
+	background: #f7a3b2;
+}
+.show-none{
+	display: none;
+}
+.show .ge{
+	border-top:1px solid #fff;
+	color: #f3f3f3;
+	margin-left: 0.1rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	display: flex;
+}
+.show .ge div:nth-of-type(1){
+	color: #fff;
+	margin-left: 0.1rem;
+	max-width:1.5rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.show .item{
+	border: none;
+}
+.show .button{
+	position: absolute;
+	left: 0;
+	bottom: -0.1rem;
+}
+.bg-title{
+	background:#f7a3b2;
+	color: #fff;
+	text-align: center;
+}

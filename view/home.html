@@ -1,0 +1,25 @@
+<ion-view>
+	<ion-content class="Bg">
+		<ion-slide-box does-continue="true" auto-play="true" slide-interval="3000" show-pager="true" class="lunbo">
+			<ion-slide ng-repeat="lunbo in lunbos">
+				<img ng-src="{{lunbo}}" alt="">
+			</ion-slide>
+		</ion-slide-box>
+		<div class="content" ng-repeat = 'item in songs'>
+			<h4>{{item.name}}</h4>
+			<div ng-repeat = ' song in item.song'>
+				<img ng-src="{{song.img}}" alt="">
+				<span></span>
+				<p>{{song.p}}</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<a href="#">去客户端发现更多好音乐 ></a>
+			<a href="#">查看电脑版网页</a>
+			<i class="logo"></i>
+			<p>Copyright © 1998 - 2015 Tencent. All Rights Reserved.</p>
+		</div>
+	</ion-content>
+</ion-view>
+	

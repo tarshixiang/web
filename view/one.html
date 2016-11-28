@@ -1,0 +1,46 @@
+<div class="oneSong" style="background: pink; background-size: 1000%; z-index: 1; opacity: 0.7 !impotrant">
+	<div class="song-info">
+			<img ng-src="{{IMG}}" alt="">
+			<div class="msg">
+				<h2>{{TITLE}}</h2>
+				<p>{{CONTENT}}</p>
+				<div class="songPlayer" ng-click="move()">
+					<i ng-class="{true :'bofang' , false : 'zanting'}[isok]" ></i>
+				</div>
+			</div>
+		</div>
+	<div class="geci">
+		<ion-scroll direction="y" on-scroll='true'>
+		<div>{{lyric}}</div>
+		</ion-scroll>
+	</div>
+	<div class="music">
+		<i class="slist" ng-click="show()">
+			<div class="show" ng-class="{ true :'show-none'}[close]">
+				<ion-item class='bg-title'>gedan</ion-item>
+				<ion-scroll style="height: 2.4rem; overflow: hidden;" direction='y'>
+					<div class="ge" ng-repeat="itm in small" ng-click="change(itm.url,itm.singerid,itm.albumpic_small,itm.songname,itm.singername)">
+						<div>{{$index + 1 +'-'}}{{itm.songname}}</div><div >{{itm.singername}}</div>
+					</div>
+				</ion-scroll>
+				<button class="button button-block" ng-click="hided()">guanbi</button>
+			</div>
+		</i>
+		<i class="love"></i>
+		<audio ng-src="{{vSrc(URL)}}" autoplay="autoplay"></audio>
+
+	</div>
+
+
+	<div id="cont">
+		<div id="current">{{current}}</div>
+		<div id="gundongtiao">
+			<div id="now"></div>
+		</div>
+		<div id="all">{{all}}</div>
+	</div>
+	<div class="downLoad">
+		<i></i>
+		<span>下载这首歌曲</span>
+	</div>
+</div>

@@ -1,0 +1,14 @@
+<ion-view >
+	<ion-content class='Bg' >		
+		<div class="box" ng-repeat="rank in ranks" ng-click="song(rank.id,rank.h2)" ui-sref="song" >
+			<img ng-src="{{rank.img}}" alt="">
+			<div>
+				<h2> {{rank.h2}}</h2>
+				<p>1 {{rank.p1}}</p>
+				<p>2 {{rank.p2}}</p>
+				<p>3 {{rank.p3}}</p>	
+				<i class="icon_listen"></i><span>{{rank.num}}</span>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

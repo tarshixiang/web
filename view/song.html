@@ -1,0 +1,19 @@
+<ion-view>
+	<ion-content class="song" >
+		<img ng-src="{{Simg}}" alt="" class="songImg" >
+		<div class="songTitle" >
+			<h3>{{title}}</h3>
+			<p>{{update}}</p>
+			<div class="player"></div>
+		</div>
+		<ion-list>
+			<ion-item class="itemlist" ng-repeat='item in list' ng-click="oneSong(item.url,item.singerid,item.albumpic_small,item.songname,item.singername)" ui-sref='one' >
+				<div class="leftnum">{{$index + 1}}</div>
+				<div class="songlist">
+					<h3>{{item.songname}}</h3>
+					<p>{{item.singername}}</p>
+				</div>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-view>
